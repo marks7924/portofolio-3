@@ -1,0 +1,196 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "adminDashboard": "CMS Dashboard"
+  },
+  "Hero": {
+    "greeting": "Hello, I am",
+    "subtitle": "Principal Full-Stack Developer",
+    "description": "I build premium web applications with Vercel-like performance, Apple-like polish, and fluid interactive animations.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me",
+    "pipelineRunning": "DevOps Pipeline Active",
+    "pipelineSteps": {
+      "build": "Build succeeded",
+      "test": "Unit tests: 100% passed",
+      "deploy": "Deployed to Vercel production edge"
+    }
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "My Story & Passion",
+    "bio": "I am a passionate software engineer specializing in building high-fidelity interactive platforms. With years of experience across the entire development stack, I translate complex business problems into clean, scalable architectures.",
+    "stats": {
+      "experience": "Years of Experience",
+      "completed": "Projects Completed",
+      "mastered": "Technologies Mastered"
+    },
+    "downloadResume": "Download Resume"
+  },
+  "Skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "My Technical Arsenal",
+    "categories": {
+      "all": "All Skills",
+      "FRONTEND": "Frontend",
+      "BACKEND": "Backend",
+      "DATABASE": "Database",
+      "CLOUD": "Cloud",
+      "DEVOPS": "DevOps",
+      "AITOOLS": "AI Tools"
+    }
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "subtitle": "Crafting premium products with cutting-edge tech",
+    "categories": {
+      "all": "All",
+      "web-apps": "Web Apps",
+      "saas": "SaaS",
+      "ecommerce": "E-Commerce",
+      "dashboards": "Dashboards",
+      "ai-projects": "AI Projects"
+    },
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "technologies": "Technologies Used",
+    "liveDemo": "Live Demo",
+    "github": "Source Code",
+    "noProjects": "No projects found in this category."
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "subtitle": "My career timeline",
+    "present": "Present"
+  },
+  "Testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What people say about working with me"
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's collaborate on your next big idea",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "sending": "Sending Message...",
+    "send": "Send Message",
+    "success": "Thank you! Your message was sent successfully.",
+    "error": "Failed to send message. Please try again.",
+    "validation": {
+      "name": "Name must be at least 2 characters.",
+      "email": "Please enter a valid email address.",
+      "message": "Message must be at least 10 characters."
+    }
+  },
+  "Footer": {
+    "copyright": "All rights reserved.",
+    "builtWith": "Designed & Built with Next.js, Prisma & Tailwind"
+  },
+  "Admin": {
+    "login": {
+      "title": "Admin CMS Access",
+      "description": "Secure dashboard authentication",
+      "email": "Admin Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "error": "Invalid email or password."
+    },
+    "sidebar": {
+      "dashboard": "Overview",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience",
+      "testimonials": "Testimonials",
+      "settings": "Settings",
+      "logout": "Sign Out",
+      "backToSite": "View Live Site"
+    },
+    "dashboard": {
+      "welcome": "Welcome back,",
+      "overview": "CMS Overview Statistics",
+      "statProjects": "Total Projects",
+      "statSkills": "Active Skills",
+      "statExperience": "Timeline Events",
+      "statTestimonials": "Reviews Saved",
+      "quickActions": "Quick Management Actions"
+    },
+    "projects": {
+      "title": "Projects Management",
+      "addNew": "Add New Project",
+      "edit": "Edit Project",
+      "title_en": "Title (English)",
+      "title_ar": "Title (Arabic)",
+      "category_en": "Category (English)",
+      "category_ar": "Category (Arabic)",
+      "description_en": "Description (English)",
+      "description_ar": "Description (Arabic)",
+      "challenge_en": "Challenge (English)",
+      "challenge_ar": "Challenge (Arabic)",
+      "solution_en": "Solution (English)",
+      "solution_ar": "Solution (Arabic)",
+      "technologies": "Technologies (comma-separated)",
+      "coverImage": "Cover Image URL / Upload",
+      "galleryImages": "Gallery Image URLs",
+      "liveUrl": "Live Project URL",
+      "githubUrl": "GitHub Source URL",
+      "featured": "Feature this Project",
+      "sequenceNumber": "Sort Sequence Number",
+      "save": "Save Project",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "saving": "Saving changes..."
+    },
+    "skills": {
+      "title": "Skills Management",
+      "addNew": "Add New Skill",
+      "name_en": "Name (English)",
+      "name_ar": "Name (Arabic)",
+      "percentage": "Proficiency Level (%)",
+      "category": "Classification",
+      "icon": "Lucide Icon Name"
+    },
+    "experience": {
+      "title": "Experience Management",
+      "addNew": "Add Experience Record",
+      "company_en": "Company (English)",
+      "company_ar": "Company (Arabic)",
+      "role_en": "Role (English)",
+      "role_ar": "Role (Arabic)",
+      "description_en": "Description (English)",
+      "description_ar": "Description (Arabic)",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "current": "Current Job"
+    },
+    "testimonials": {
+      "title": "Testimonials Management",
+      "addNew": "Add Testimonial",
+      "clientName": "Client Name",
+      "company": "Company",
+      "position": "Job Position",
+      "review_en": "Review (English)",
+      "review_ar": "Review (Arabic)",
+      "avatar": "Avatar Image URL / Upload"
+    },
+    "settings": {
+      "title": "Global Settings",
+      "fullName": "Professional Name",
+      "title_en": "Site Title (English)",
+      "title_ar": "Site Title (Arabic)",
+      "bio_en": "Global Short Bio (English)",
+      "bio_ar": "Global Short Bio (Arabic)",
+      "email": "Contact Email",
+      "phone": "Contact Phone",
+      "resume": "Resume File URL / Upload",
+      "profileImage": "Profile Photo URL",
+      "socials": "Social Network Handles"
+    }
+  }
+}

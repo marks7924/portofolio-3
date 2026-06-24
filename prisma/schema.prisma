@@ -1,0 +1,91 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  role      String   @default("ADMIN")
+  createdAt DateTime @default(now())
+}
+
+model Project {
+  id             String   @id @default(uuid())
+  sequenceNumber Int      @default(0)
+  title_en       String
+  title_ar       String
+  category_en    String
+  category_ar    String
+  description_en String
+  description_ar String
+  challenge_en   String
+  challenge_ar   String
+  solution_en    String
+  solution_ar    String
+  technologies   String[]
+  coverImage     String
+  galleryImages  String[]
+  liveUrl        String?
+  githubUrl      String?
+  featured       Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Skill {
+  id          String   @id @default(uuid())
+  name_en     String
+  name_ar     String
+  category    String   // e.g. FRONTEND, BACKEND, DATABASE, CLOUD, DEVOPS, AITOOLS
+  percentage  Int      @default(0)
+  icon        String   
+  createdAt   DateTime @default(now())
+}
+
+model Experience {
+  id             String    @id @default(uuid())
+  company_en     String
+  company_ar     String
+  role_en        String
+  role_ar        String
+  description_en String
+  description_ar String
+  startDate      DateTime
+  endDate        DateTime?
+  current        Boolean   @default(false)
+}
+
+model Testimonial {
+  id        String   @id @default(uuid())
+  name      String
+  company   String
+  position  String
+  review_en String
+  review_ar String
+  avatar    String
+}
+
+model SiteSettings {
+  id           String  @id @default("default")
+  fullName     String
+  title_en     String
+  title_ar     String
+  bio_en       String
+  bio_ar       String
+  email        String
+  phone        String?
+  github       String?
+  linkedin     String?
+  facebook     String?
+  instagram    String?
+  x            String?
+  profileImage String?
+  resumeFile   String?
+}
